@@ -1,2 +1,22 @@
-# Social-Media-Marketing-6
-In this project, learners use Stable Diffusion to create images from text descriptions. They assemble the Stable Diffusion pipeline using several pre-trained neural networks, and learn how to fine-tune the networks to include new image information. With the goal of generating meme-worthy images, learners also create and deploy a Streamlit app to be a front-end to their fine-tuned Stable Diffusion model. This allows a non-technical marketing team to generate such images easily.
+# Social Media Marketing — Stable Diffusion 🎨
+
+**Stable Diffusion** pipeline that generates images from text descriptions,
+fine-tuned for marketing teams. *(Guided project completed as part of a
+Coursera learning path.)*
+
+## ✨ What It Does
+- Assembles the Stable Diffusion pipeline from pre-trained networks
+- Fine-tunes the model on new images
+- Deploys a **Streamlit** app front-end for non-technical users
+
+## 🚀 Getting Started
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 🛠️ Built With
+- Python · Diffusers/Stable Diffusion · Streamlit
+
+## 📄 License
+MIT
